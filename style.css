@@ -1,0 +1,82 @@
+/*
+Project Name: Simple-HTML5-CSS-starter-template
+Creation: 1 set 2014
+Author: Daniel M. Ochoa
+Facebook: https://www.facebook.com/TallerDeScripts
+Twitter: https://twitter.com/tallerdescripts
+*/
+* {
+    font-size: 100%;
+    color: #000;
+}
+
+body {
+    font: 0.9em/1.5em helvetica,verdana,sans-serif;
+    text-align: center;/* for IE */
+}
+
+#container {
+    margin: 0 auto;
+	width: 800px;
+    border: 1px solid #ccc;
+    text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font: bold 1.2em helvetica,verdana,sans-serif;
+}
+
+footer,header {
+	height: 50px;
+	padding: 10px;
+	background-color: #eee;
+	clear: both;
+}
+
+section {
+    padding: 10px;
+    width: 500px;
+}
+
+aside {
+    width: 250px;
+    float: right;
+    padding: 10px;
+}
+
+nav {
+	padding: 5px;
+    background-color: #ddd;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 2px;
+}
+
+nav ul li::before {
+    content: "»";
+}
+
+nav ul a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+nav ul a:active {
+    color: #000;
+}
+
+nav ul a:visited {
+    color: #000;
+}
