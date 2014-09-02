@@ -6,69 +6,77 @@ Facebook: https://www.facebook.com/TallerDeScripts
 Twitter: https://twitter.com/tallerdescripts
 */
 * {
-	font-family:Helvetica,Arial,Verdana;
-	color:#000
+    font-size: 100%;
+    color: #000;
 }
+
 body {
-	font-size:80%;
-	text-align: center; /* for IE */   
+    font: 0.9em/1.5em helvetica,verdana,sans-serif;
+    text-align: center;/* for IE */
 }
-#Header {
-	height:50px;
-	background-color:#eee;
-	padding:10px;
+
+#container {
+    margin: 0 auto;
+	width: 800px;
+    border: 1px solid #ccc;
+    text-align: justify;
 }
-#Container {
-	width:800px;
-	margin:0 auto;
-	border:1px solid #ccc;
-	text-align:justify;
+
+h1,h2,h3,h4,h5,h6 {
+	font: bold 1.2em helvetica,verdana,sans-serif;
 }
-#Content {
-	padding:10px;
-	width:500px;
+
+footer,header {
+	height: 50px;
+	padding: 10px;
+	background-color: #eee;
+	clear: both;
 }
-#sideBar {
-	width:250px;
-	display:block;
-	border:0px solid gray;
-	float:right;
-	padding:10px;
+
+section {
+    padding: 10px;
+    width: 500px;
 }
-#Footer {
-	height:50px;
-	background-color:#eee
+
+aside {
+    width: 250px;
+    float: right;
+    padding: 10px;
 }
-#menuBar {
-	margin:0;
-	background-color:#ddd;
-	padding:5px;
+
+nav {
+	padding: 5px;
+    background-color: #ddd;
 }
-#Breaker {
-	clear:both
+
+nav ul {
+    margin: 0;
+    padding: 0;
 }
-#menuBar ul {
-	margin:0;
-	padding:0;
+
+nav li {
+    display: inline;
+    padding: 2px;
 }
-#menuBar li {
-	display:inline;
-	padding:2px;
+
+nav ul li::before {
+    content: "»";
 }
-#menuBar ul li::before {
-	content:"»"
+
+nav ul a:link {
+    text-decoration: none;
+    color: #000;
 }
-#menuBar ul a:link {
-	text-decoration:none;
-	color: #000;
+
+nav ul a:hover {
+    text-decoration: underline;
+    color: #000;
 }
-#menuBar ul a:hover {
-	text-decoration:underline;
-	color: #000;
+
+nav ul a:active {
+    color: #000;
 }
-#menuBar ul a:active {
-	color: #000;
-}
-#menuBar ul a:visited {
-	color: #000;
+
+nav ul a:visited {
+    color: #000;
 }
